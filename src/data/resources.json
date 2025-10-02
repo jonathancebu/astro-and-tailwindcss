@@ -1,0 +1,104 @@
+{
+  "resources": [
+    {
+      "origurl": "https://astro.build/",
+      "url": "https://astro.build/",
+      "status": 200,
+      "keywords": "",
+      "title": "Astro",
+      "description": "Astro builds fast content sites, powerful web applications, dynamic server APIs, and everything in-between.",
+      "image": "https://astro.build/og/astro.jpg"
+    },
+    {
+      "origurl": "https://code.visualstudio.com/",
+      "url": "https://code.visualstudio.com/",
+      "status": 200,
+      "keywords": "",
+      "title": "Visual Studio Code - Code Editing. Redefined",
+      "description": "Visual Studio Code redefines AI-powered coding with GitHub Copilot for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
+      "image": "https://code.visualstudio.com/opengraphimg/opengraph-home.png"
+    },
+    {
+      "origurl": "https://github.com/",
+      "url": "https://github.com/",
+      "status": 200,
+      "keywords": "",
+      "title": "GitHub \u00b7 Build and ship software on a single, collaborative platform \u00b7 GitHub",
+      "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/4UxhHBs2XnuyZ4lYQ83juV/b61529b087aeb4a318bda311edf4c345/home24.jpg"
+    },
+    {
+      "origurl": "https://git-scm.com/",
+      "url": "https://git-scm.com/",
+      "status": 200,
+      "keywords": "",
+      "title": "Git",
+      "description": "Git is a free an dopen source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+      "image": ""
+    },
+    {
+      "origurl": "https://nodejs.org/",
+      "url": "https://nodejs.org/en",
+      "status": 200,
+      "keywords": "",
+      "title": "Node.js \u2014 Run JavaScript Everywhere",
+      "description": "Node.js\u00ae is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
+      "image": "https://nodejs.org/en/next-data/og/announcement/Node.js%20%E2%80%94%20Run%20JavaScript%20Everywhere"
+    },
+    {
+      "origurl": "https://developer.mozilla.org/",
+      "url": "https://developer.mozilla.org/en-US/",
+      "status": 200,
+      "keywords": "",
+      "title": "MDN Web Docs",
+      "description": "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.",
+      "image": ""
+    },
+    {
+      "origurl": "https://css-tricks.com/",
+      "url": "https://css-tricks.com/",
+      "status": 200,
+      "keywords": "",
+      "title": "CSS-Tricks - A Website About Making Websites",
+      "description": "A website about making websites, mostly from the front-end perspective.  Plenty of CSS, but not only CSS!",
+      "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png"
+    },
+    {
+      "origurl": "https://tailwindcss.com/",
+      "url": "https://tailwindcss.com/",
+      "status": 200,
+      "keywords": "",
+      "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+      "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
+      "image": "https://tailwindcss.com/opengraph-image.jpg?fbee406903dc9e88"
+    },
+
+    {
+      "origurl": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "status": 200,
+      "keywords": "",
+      "title": "HTML: HyperText Markup Language | MDN",
+      "description": "HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).",
+      "image": ""
+    },
+    {
+      "origurl": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "status": 200,
+      "keywords": "",
+      "title": "CSS: Cascading Style Sheets | MDN",
+      "description": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.",
+      "image": ""
+    },
+    {
+      "origurl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "status": 200,
+      "keywords": "",
+      "title": "JavaScript | MDN",
+      "description": "JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, garbage-collected, dynamic language, supporting multiple paradigms such as imperative, functional, and object-oriented.",
+      "image": ""
+    }
+  ]
+}

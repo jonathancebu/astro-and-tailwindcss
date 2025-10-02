@@ -1,16 +1,18 @@
 ---
-
+import { resources } from "../data/resources.json";
+import Layout from "../layouts/Layout.astro";
+import Card from "../layouts/Card.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+  <h1 class="text-cyan-600 text-5xl font-bold mb-8">The Basics</h1>
+  <div
+    class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+  >
+    {
+      resources.map((r) => {
+        return <Card card={r} />;
+      })
+    }
+  </div>
+</Layout>

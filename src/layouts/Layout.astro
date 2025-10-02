@@ -1,0 +1,28 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>CSCI E-12 Resources</title>
+  </head>
+  <body>
+    <header class="p-4">
+      <span class="text-6xl text-cyan-600 font-bold"
+        >Web Development Technologies and Tools</span>
+    </header>
+    <main class="p-4">
+      <slot />
+    </main>
+    <footer class="p-4 border-t-cyan-500 border-t-4 bg-cyan-50">
+      <p class="my-4">
+        This is an example from CSCI E-12, Fundamentals of Web Application
+        Development.
+      </p>
+    </footer>
+  </body>
+</html>
