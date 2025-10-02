@@ -1,29 +1,17 @@
-# Astro Starter Kit: Minimal
+# Astro and Tailwind Example
 
-```sh
-npm create astro@latest -- --template minimal
+The purpose of this project is to demonstrate the use of Tailwind within Astro.  
+
+For this project, I used [Astro Add Tailwind 4](https://docs.astro.build/en/guides/styling/#tailwind) as a Vite plugin.  So everything is there, you just need to `npm run install` and then `npm run dev`
+
+Astro and Tailwind rebuilds based on code changes you make!  Thank you Astro, Tailwind, and Vite for making this so easy!
+
+## To start
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+npm run install
+npm run dev
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
@@ -35,9 +23,5 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
