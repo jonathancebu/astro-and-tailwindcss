@@ -12,6 +12,7 @@ import Card from "../layouts/Card.astro";
     {
       resources.map((r) => {
         return <Card card={r} />;
+        // For each resource object (r), you create a Card and pass r to it as the card prop. It pulles data from "resources", creates a prop called "card". The prop "card" is then linked to the file "Card.astro". The whole index.astro file loops through data, passes each item to the Card component.
       })
     }
   </div>

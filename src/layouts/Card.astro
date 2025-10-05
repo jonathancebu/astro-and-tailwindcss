@@ -2,6 +2,8 @@
 const { card } = Astro.props;
 ---
 
+<!-- the prop "card" derived from the one created in "index.astro". Below, we decide to pull the url, title and description from the prop. The whole Card.astro file receives the data, renders the card layout, decides what is visible-->
+
 <a
   href={card.url}
   class="block p-4 border-2 border-pink-600 rounded-2xl bg-cyan-50 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
